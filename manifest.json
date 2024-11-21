@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Network Request Logger",
+  "version": "1.0",
+  "description": "Shows all network requests in a custom DevTools panel",
+  "permissions": ["webRequest"],
+  "devtools_page": "devtools.html",
+  "host_permissions": ["<all_urls>"]
+}
